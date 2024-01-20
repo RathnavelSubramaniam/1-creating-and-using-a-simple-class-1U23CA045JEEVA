@@ -1,9 +1,9 @@
-class persona
+class Persona
 {
     String Firstname;
     String Lastname;
     int age;
-    persona (String Fname, String Lname, int a)
+    Persona (String Fname, String Lname, int a)
     {
         Firstname = Fname;
         Lastname = Lname;
