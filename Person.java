@@ -13,14 +13,14 @@ class persona
         return Firstname + "" + Lastname;
     }
 }
-class person{
+class Person{
     public static void main(String arg[]){
         persona a1 = new persona("Jhon","Doe",30);
         persona a2 = new persona("Alice","Smith",25);
         String kj = a1.getfullname();
         String jk = a2.getfullname();
-        System.out.println("person1: "+kj);
-        System.out.println("person2: "+jk);
+        System.out.println("Person1: "+kj);
+        System.out.println("Person2: "+jk);
         double average = ((a1.age + a2.age)/2.0);
         System.out.println("Average: "+average);
 
